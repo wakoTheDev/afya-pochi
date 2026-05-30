@@ -627,7 +627,7 @@ export default function App() {
             </div>
             <div>
               <h1 className="text-xl font-bold font-display tracking-tight text-slate-900 flex flex-wrap items-center gap-2">
-                Cardio-Safe Health Companion
+                AfyaPochi
                 {isFallbackMode ? (
                   <span className="text-xs font-bold text-amber-800 bg-amber-50 px-2.5 py-0.5 rounded-full font-mono flex items-center gap-1 border border-amber-200">
                     <AlertTriangle className="w-3 h-3 text-amber-600 animate-pulse" /> Offline Resilient Mode
