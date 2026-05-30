@@ -1,0 +1,8 @@
+{
+  "name": "Health Assistant Agent",
+  "description": "An empathetic AI-powered health companion equipped with database tool calling, voice input, speech synthesis, and medical location grounding.",
+  "requestFramePermissions": ["geolocation", "microphone"],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
