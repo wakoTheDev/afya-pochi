@@ -18,3 +18,13 @@ View your app in AI Studio: https://ai.studio/apps/b12c2e27-907e-4100-87ec-e08d1
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+
+## Deploy on Render
+
+This project includes a [render.yaml](render.yaml) service definition for a Node web service.
+
+1. Create a new Render Web Service from this repository.
+2. Add `GEMINI_API_KEY` as an environment variable in Render.
+3. Use the generated service config, or set the build and start commands to:
+   - Build: `npm install && npm run build`
+   - Start: `npm run start`
